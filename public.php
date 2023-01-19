@@ -14,7 +14,7 @@ include 'index.php';
         <div id="after_submit">
             
         </div>
-        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+        <form id="contact_form" action="interface.php" method="POST" enctype="multipart/form-data">
 
             <div class="row">
                 <label class="required" for="name">Your name:</label><br />
@@ -32,8 +32,8 @@ include 'index.php';
 
             </div>
 
-            <input id="submit" name="submit" type="submit" value="Send email" />
-            <input id="clear" name="clear" type="reset" value="clear" />
+            <input id="submit" name="submit" type="submit" value="submit" />
+            <input id="clear" name="clear" type="reset"  />
 
         </form>
         <?php 
